@@ -18,7 +18,7 @@ export default function Footer() {
         
       </div>
 
-      <div className="direitos">
+      <div className="text">
         <p>2022 Mara Queijos&copy; - Todos os direitos reservados</p>
         <p>Site desenvolvido por: <a href="https://www.linkedin.com/in/carlosamorim94/">Carlos Amorim</a></p>
       </div>

@@ -13,9 +13,29 @@ export default function Header() {
         </div>
 
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/products">Produtos</Link>
-          <Link to="/contact">Contato</Link>
+          <Link to="/">
+            <div className="box-1">
+              <div className="btn btn-one">
+                <span>HOME</span>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/products">
+            <div className="box-1">
+              <div className="btn btn-one">
+                <span>PRODUTOS</span>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/contact">
+          <div className="box-1">
+              <div className="btn btn-one">
+                <span>CONTATO</span>
+              </div>
+            </div>
+          </Link>
         </nav>
       
     </Container>
