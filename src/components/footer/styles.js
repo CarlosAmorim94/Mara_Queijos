@@ -23,10 +23,6 @@ export const Container = styled.footer`
       margin: 0 1.5rem ;
       font-size: 2.5rem;
       text-decoration: none;
-
-      a.facebook {
-        color: blue;
-      }
     }
 
     a:visited{
@@ -43,7 +39,7 @@ export const Container = styled.footer`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: inherit;
+    width: auto;
     color: white;
     font-size: 1.2rem;
   }
