@@ -11,7 +11,7 @@ export default function Home() {
 
           <h1>QUEIJOS E VINHOS</h1>
 
-          <p>Diversas opções deliciosas</p>
+          <p>Diversas opções deliciosas! Qualidade, sabor e um ótimo preço!</p>
 
           <Link to="/products">
             <button>Ver mais</button>

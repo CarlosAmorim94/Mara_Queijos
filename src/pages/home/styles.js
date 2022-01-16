@@ -26,6 +26,8 @@ export const Container = styled.main`
       padding: 2rem;
       background-color: rgba(0,0,0, 0.5);
       border-radius: 2rem;
+      width: 50vw;
+      height: auto;
       
 
       h1 {
@@ -36,6 +38,7 @@ export const Container = styled.main`
       }
 
       p {
+
         font-size: 2rem;
         color: var(--white);
         margin: 2rem;
@@ -55,7 +58,7 @@ export const Container = styled.main`
       }
 
       button:hover {
-          background-color: rgba(0,0,0, 0.6);
+          background-color: rgba(0,0,0, 0.8);
         }
     }
   }

@@ -4,8 +4,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Header from './components/header';
 import Footer from './components/footer';
-import Products from "./pages/product/Products";
-import Contact from "./pages/contact/Contact";
+import Products from "./pages/product";
+import Contact from "./pages/contact";
 import Home from "./pages/home";
 
 import { GlobalStyle } from "./styles";
