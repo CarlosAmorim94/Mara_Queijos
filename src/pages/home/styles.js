@@ -26,6 +26,13 @@ export const Container = styled.main`
       border-radius: 2rem;
       width: 40vw;
       height: auto;
+
+      @media (max-width: 540px) {
+        .center-card {
+          font-size: 1rem;
+          width: 80vw
+        }
+      }   
       
 
       h1 {
@@ -60,5 +67,7 @@ export const Container = styled.main`
         }
     }
   }
+
+  
   
 `

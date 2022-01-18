@@ -104,4 +104,8 @@ export const Container = styled.nav`
 
   }
 
+  @media (max-width: 540px) {
+    
+  }
+
 `

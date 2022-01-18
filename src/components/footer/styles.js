@@ -10,7 +10,6 @@ export const Container = styled.footer`
   justify-content: space-between;
   background-color: #1C1C1C;
 
-
   .socials {
     display: flex;
     flex-direction: row;
@@ -49,4 +48,5 @@ export const Container = styled.footer`
       text-decoration: none;
     }
   }
+
 `
