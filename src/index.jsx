@@ -16,9 +16,10 @@ import { GlobalStyle } from "./styles";
 
 
 ReactDOM.render(
+
   <BrowserRouter>
 
-    <Header />
+    <Header/>
     
 
     <GlobalStyle />

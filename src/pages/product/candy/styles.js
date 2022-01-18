@@ -4,7 +4,7 @@ export const Container = styled.main`
 
   background-image: var(--background); 
   background-color: #cccccc;
-  height: 90vh;
+  height: auto;
   width: 100vw;
   background-position: center;
   background-repeat: no-repeat; 
@@ -23,9 +23,9 @@ export const Container = styled.main`
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      width: auto;
+      width: 50%;
       height: auto;
-      margin: 15rem;
+      margin: 12rem 0 2rem 0;
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 2rem;
       padding: 2rem;
@@ -39,6 +39,7 @@ export const Container = styled.main`
         width: auto;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
 
         img {

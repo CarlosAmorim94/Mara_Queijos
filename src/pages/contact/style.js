@@ -14,16 +14,16 @@ export const Container = styled.section`
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    padding-top: 7rem;
 
     .card {
       width: 40vw;
+      height: auto;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      margin: 12vh 1vw;
+      margin: auto;
       padding: 1rem;
 
       h1 {
@@ -54,6 +54,35 @@ export const Container = styled.section`
       }
 
     }
+
+    .mapouter {
+      width: 40vw;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: auto;
+      padding-bottom: 1rem;
+      background-color: rgba(0,0,0, .8);
+      border-radius: 2rem;
+
+      h1 {
+        font-size: 2.5rem;
+        color: var(--white);
+        margin-bottom: 1rem;
+      }
+
+      .gmap_canvas {
+      overflow:hidden;
+      
+      height:500px;
+      width:500px;
+      border-radius: 2rem;
+      }
+
+    }
+
   }
 
 

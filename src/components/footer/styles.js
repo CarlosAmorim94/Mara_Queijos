@@ -42,5 +42,11 @@ export const Container = styled.footer`
     width: auto;
     color: white;
     font-size: 1.2rem;
+
+    a {
+      color: inherit;
+      font-weight: bold;
+      text-decoration: none;
+    }
   }
 `

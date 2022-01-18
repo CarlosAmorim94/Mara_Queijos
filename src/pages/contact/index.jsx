@@ -28,6 +28,13 @@ export default function Contact() {
 
         </div>
 
+        <div class="mapouter">
+          <h1>Nossa Localização:</h1>
+          <div class="gmap_canvas">
+            <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?ll=-22.8737893,-48.4582015&q=R. Dr. Guimarães, 463&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div> 
+        </div> 
+
       </section>
     </Container>
   )
