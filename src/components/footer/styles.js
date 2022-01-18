@@ -8,7 +8,7 @@ export const Container = styled.footer`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: #1C1C1C;
 
 
   .socials {

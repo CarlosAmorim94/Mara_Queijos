@@ -1,9 +1,20 @@
 import React from 'react'
+import { Container } from './style'
 
 export default function Products() {
   return (
-    <h1>
-      Products
-    </h1>
+    <Container>
+      <section>
+        <div>
+          Queijos
+        </div>
+        <div>
+          Vinhos
+        </div>
+        <div>
+          Doces
+        </div>
+      </section>
+    </Container>
   )
 }
