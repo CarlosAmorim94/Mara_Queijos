@@ -16,7 +16,7 @@ export default function Products() {
           <img src={queijo} alt="queijos" />
           <div className="texts">
             <h1>Queijos</h1>
-            <Link className="links" to="/">Ver mais</Link>
+            <Link className="links" to="/cheese">Ver mais</Link>
           </div>
         </div>
 
@@ -24,7 +24,7 @@ export default function Products() {
           <img src={vinho} alt="vinhos" />
           <div className="texts">
             <h1>Vinhos</h1>
-            <Link className="links" to="/">Ver mais</Link>
+            <Link className="links" to="/wine">Ver mais</Link>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ export default function Products() {
           <img src={doce} alt="doces" />
           <div className="texts">
             <h1>Doces</h1>
-            <Link className="links" to="/">Ver mais</Link>
+            <Link className="links" to="/candy">Ver mais</Link>
           </div>
         </div>
 
