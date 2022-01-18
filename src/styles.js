@@ -1,10 +1,13 @@
 import { createGlobalStyle } from 'styled-components'
+import background from "./img/background.jpg"
+
 
 export const GlobalStyle = createGlobalStyle`
     :root {
         --gray-500: #4f4f4f;
         --gray-800: #1c1c1c;
         --white: #fff;
+        --background: url(${background});
     }
     * {
         margin: 0;

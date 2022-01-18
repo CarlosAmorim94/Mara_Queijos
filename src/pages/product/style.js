@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import backgroundImg from "../../img/background.jpg"
 
 export const Container = styled.main`
 
-  background-image: url(${backgroundImg}) ;
+  background-image: var(--background);
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 90vh;
   width: 100vw;

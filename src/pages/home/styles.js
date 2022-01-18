@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import backgroundImg from "../../img/background.jpg"
 
 export const Container = styled.main`
 
-  background-image: url(${backgroundImg}) ;
+  background-image: var(--background); 
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 90vh;
   width: 100vw;
@@ -15,7 +14,7 @@ export const Container = styled.main`
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     .center-card {
@@ -24,9 +23,8 @@ export const Container = styled.main`
       align-items: center;
       flex-direction: column;
       padding: 2rem;
-      background-color: rgba(0,0,0, 0.5);
       border-radius: 2rem;
-      width: 50vw;
+      width: 40vw;
       height: auto;
       
 

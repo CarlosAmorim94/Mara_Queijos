@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import backgroundImg from "../../img/background.jpg"
 
 export const Container = styled.section`
-  background-image: url(${backgroundImg}) ;
+  background-image: var(--background);
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 90vh;
   width: 100vw;
@@ -15,18 +14,17 @@ export const Container = styled.section`
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     .card {
+      width: 40vw;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      margin: 1rem;
-      padding: 2rem;
-      background-color: rgba(0,0,0, 0.5);
-      border-radius: 2rem;
+      margin: 12vh 1vw;
+      padding: 1rem;
 
       h1 {
         font-size: 2.5rem;
@@ -45,12 +43,12 @@ export const Container = styled.section`
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          width: 20rem;
-          height: 20rem;
+          width: 50%;
+          height: auto;
 
           img {
-            width: 15rem;
-            height: 15rem;
+            width: 80%;
+            height: 80%;
           }
         } 
       }
