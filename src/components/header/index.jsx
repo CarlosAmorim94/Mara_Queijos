@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <Container>
-        <div>
+    <Container className='header'>
+        <div className='logo'>
           <Link to="/">
               <img src={LogoImg} alt="Logotipo" />
           </Link>
@@ -14,28 +14,17 @@ export default function Header() {
 
         <nav>
           <Link to="/">
-            <div className="box-1">
-              <div className="btn btn-one">
-                <span>HOME</span>
-              </div>
-            </div>
+            <button>HOME</button>
           </Link>
 
           <Link to="/products">
-            <div className="box-1">
-              <div className="btn btn-one">
-                <span>PRODUTOS</span>
-              </div>
-            </div>
+            <button>PRODUTOS</button>
           </Link>
 
           <Link to="/contact">
-          <div className="box-1">
-              <div className="btn btn-one">
-                <span>CONTATO</span>
-              </div>
-            </div>
+            <button>CONTATO</button>
           </Link>
+      
         </nav>
       
     </Container>
