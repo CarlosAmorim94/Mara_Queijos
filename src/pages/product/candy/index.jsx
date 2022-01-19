@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from './styles'
+import { ContainerStyled, ContentStyled } from './styles'
 import candy1 from '../../../img/doces/img5.jpg'
 import candy2 from '../../../img/doces/img16.jpg'
 import candy3 from '../../../img/doces/img17.jpg'
@@ -10,9 +10,8 @@ import { Link } from 'react-router-dom'
 
 export default function Candy() {
   return (
-    <Container>
-      <section>
-        <div className='content'>
+    <ContainerStyled>
+        <ContentStyled>
 
           <h2>Entre em 
             <Link className='link' to="/contact"> contato </Link> para saber quais opções e preços temos disponíveis.</h2>
@@ -26,8 +25,7 @@ export default function Candy() {
           
           </div>
           
-        </div>
-      </section>
-    </Container>
+        </ContentStyled>
+    </ContainerStyled>
   )
 }

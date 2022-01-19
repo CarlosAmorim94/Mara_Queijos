@@ -1,29 +1,19 @@
 import styled from "styled-components";
 
-export const Container = styled.main`
-
-  background-image: var(--background); 
-  background-color: #cccccc;
-  height: auto;
-  width: 100vw;
-  background-position: center;
-  background-repeat: no-repeat; 
-  background-size: cover;
-
-  section {
+export const ContainerStyled = styled.section`
     width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+`
    
-
-    .content {
+export const ContentStyled = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      width: 50%;
+      width: 90vw;
       height: auto;
       margin: 12rem 0 2rem 0;
       background-color: rgba(0, 0, 0, 0.7);
@@ -31,22 +21,32 @@ export const Container = styled.main`
       padding: 2rem;
 
       h2{
+        text-align: center;
         color: white;
       }
 
       .photos {
         margin: 2rem;
-        width: auto;
+        width: inherit;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
 
         img {
-          margin: 1rem;
+          margin: 1vw;
           width: 20vw;
-          height: 40vh;
+          height: 20vw;
           border-radius: 1rem;
+        }
+
+        @media (max-width: 867px) {
+          img {
+          margin: 1vw;
+          width: 35vw;
+          height: 35vw;
+          border-radius: 1rem;
+        }
         }
       }
       
@@ -57,6 +57,6 @@ export const Container = styled.main`
         color: white;
       }
     }
-  }
+  
   
 `

@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container } from './styles'
+import { ContainerStyled, ContentStyled, GridStyled } from './styles'
+import { Link } from 'react-router-dom'
 import cheese1 from '../../../img/queijos/img1.jpg'
 import cheese2 from '../../../img/queijos/img2.jpg'
 import cheese3 from '../../../img/queijos/img3.jpg'
@@ -21,19 +22,18 @@ import cheese18 from '../../../img/queijos/img27.jpeg'
 import cheese19 from '../../../img/queijos/img28.jpeg'
 import cheese20 from '../../../img/queijos/img29.jpeg'
 import cheese21 from '../../../img/queijos/img30.jpeg'
-import { Link } from 'react-router-dom'
+
 
 
 export default function Cheese() {
   return (
-    <Container>
-      <section>
-        <div className='content'>
+    <ContainerStyled>
+        <ContentStyled>
 
           <h2>Entre em 
             <Link className='link' to="/contact"> contato </Link> para saber quais opções e preços temos disponíveis.</h2>
 
-          <div className='grid'>
+          <GridStyled>
             
             <img src={cheese1} alt="queijo" />
             <img src={cheese2} alt="queijo" />
@@ -57,10 +57,9 @@ export default function Cheese() {
             <img src={cheese20} alt="queijo" />
             <img src={cheese21} alt="queijo" />
 
-          </div>
+          </GridStyled>
           
-        </div>
-      </section>
-    </Container>
+        </ContentStyled>
+    </ContainerStyled>
   )
 }

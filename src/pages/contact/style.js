@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ContentStyled = styled.section`
   width: 100vw;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   padding-top: 7rem;
