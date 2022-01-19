@@ -5,7 +5,7 @@ Site desenvolvido para "Mara Queijos" responsável por vendas e entregas de quei
 
 ### Acesse:
 
-https://doceamor.netlify.app/
+https://maraqueijos.vercel.app/
 
 
 ![Sem título](https://user-images.githubusercontent.com/83739628/142950284-4f8c54a9-b7fc-4592-91fa-75570e312ab8.jpeg)
