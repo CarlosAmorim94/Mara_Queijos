@@ -1,11 +1,10 @@
 import React from 'react'
-import { CardStyled, ContactStyled, ContainerStyled, ContentStyled, MapsStyled } from './style'
+import { CardStyled, ContactStyled, ContentStyled, MapsStyled } from './style'
 import facebookLogo from '../../img/facebook.png'
 import whatsappLogo from '../../img/whatsapp.png'
 
 export default function Contact() {
   return (
-    <ContainerStyled>
       <ContentStyled>
 
         <CardStyled>
@@ -36,6 +35,5 @@ export default function Contact() {
         </MapsStyled> 
 
       </ContentStyled>
-    </ContainerStyled>
   )
 }

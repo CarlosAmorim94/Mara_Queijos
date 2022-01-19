@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardtStyle, ContainerStyle, ContentStyle } from './style'
+import { CardtStyle, ContentStyle } from './style'
 import queijo from '../../img/queijos/capa.jpeg'
 import vinho from '../../img/vinhos/capa.jpg'
 import doce from '../../img/doces/capa.jpg'
@@ -8,8 +8,6 @@ import { Link } from 'react-router-dom'
 
 export default function Products() {
   return (
-    <ContainerStyle>
-
       <ContentStyle>
 
         <CardtStyle>
@@ -37,7 +35,5 @@ export default function Products() {
         </CardtStyle>
 
       </ContentStyle>
-
-    </ContainerStyle>
   )
 }

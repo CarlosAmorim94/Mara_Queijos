@@ -9,14 +9,17 @@ export const HeaderStyled = styled.header`
   width: 100vw;
   display: flex;
   flex-direction: row;
-  padding: 0 5rem;
+  padding: 0 3rem;
   align-items: center;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.4);
 `
   
 export const LogoStyled = styled.div`
-  width: 10rem ;
+  width: 10rem;
+  max-width: 130px;
+  min-width: 50px;
+  margin: 1rem 0;
 
   img {
     width: 100%;

@@ -26,7 +26,6 @@ export const Container = styled.main`
       width: auto;
       height: auto;
       margin: 15rem 0;
-      z-index: 1000;
       background-color: rgba(0, 0, 0, 0.7);
       border-radius: 2rem;
       padding: 2rem 0;

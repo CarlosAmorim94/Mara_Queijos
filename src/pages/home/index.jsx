@@ -1,11 +1,10 @@
 import React from 'react'
-import { Container } from './styles'
+import { ContainerStyle } from './styles'
 import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <Container>
-      <section>
+    <ContainerStyle>
 
         <div className="center-card">
 
@@ -19,7 +18,6 @@ export default function Home() {
 
         </div>   
 
-      </section>
-    </Container>
+    </ContainerStyle>
   )
 }

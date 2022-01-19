@@ -1,16 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerStyled = styled.section`
-  background-image: var(--background);
-  background-color: #cccccc; /* Used if the image is unavailable */
-  width: 100vw;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-
-`
-
-export const ContentStyled = styled.div`
+export const ContentStyled = styled.section`
   width: 100vw;
   display: flex;
   flex-wrap: wrap;

@@ -1,16 +1,7 @@
 import styled from "styled-components";
 
-export const ContainerStyle = styled.section`
-  background-image: var(--background);
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: auto;
-  width: 100vw;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-`
 
-export const ContentStyle = styled.div`
+export const ContentStyle = styled.section`
   width: 100vw;
   height: auto;
   padding-top: 12rem;

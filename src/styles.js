@@ -7,7 +7,6 @@ export const GlobalStyle = createGlobalStyle`
         --gray-500: #4f4f4f;
         --gray-800: #1c1c1c;
         --white: #fff;
-        --background: url(${background});
     }
     * {
         margin: 0;
@@ -23,6 +22,16 @@ export const GlobalStyle = createGlobalStyle`
         @media (max-width: 720px) {
             font-size: 87.5%; // 14px
         }
+    }
+
+    section {
+        background-image: url(${background});
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 90vh;
+        width: 100vw;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
     }
 
 `
