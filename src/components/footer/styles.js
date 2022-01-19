@@ -9,6 +9,7 @@ export const Container = styled.footer`
   align-items: center;
   justify-content: space-between;
   background-color: #1C1C1C;
+  padding-bottom: 2rem;
 
   .socials {
     display: flex;

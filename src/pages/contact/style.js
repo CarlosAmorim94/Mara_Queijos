@@ -67,7 +67,7 @@ export const MapsStyled = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 7rem auto 2rem;
+  margin: 6rem auto 2rem;
   padding-bottom: 1rem;
   background-color: rgba(0,0,0, .8);
   border-radius: 1rem;

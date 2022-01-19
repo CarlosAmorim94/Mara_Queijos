@@ -1,12 +1,12 @@
 import React from 'react'
-import { ContainerStyle } from './styles'
+import { CenterCardStyled, ContainerStyled } from './styles'
 import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <ContainerStyle>
+    <ContainerStyled>
 
-        <div className="center-card">
+        <CenterCardStyled>
 
           <h1>QUEIJOS E VINHOS</h1>
 
@@ -16,8 +16,8 @@ export default function Home() {
             <button>Ver mais</button>
           </Link>
 
-        </div>   
+        </CenterCardStyled>   
 
-    </ContainerStyle>
+    </ContainerStyled>
   )
 }
