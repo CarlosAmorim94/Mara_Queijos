@@ -8,8 +8,8 @@ Site desenvolvido para "Mara Queijos" responsável por vendas e entregas de quei
 https://maraqueijos.vercel.app/
 
 
-![Sem título](https://user-images.githubusercontent.com/83739628/142950284-4f8c54a9-b7fc-4592-91fa-75570e312ab8.jpeg)
 
+![maraqueijos vercel app_](https://user-images.githubusercontent.com/83739628/150073352-52b110f0-7a7a-4d94-83a5-1addec569c4c.png)
 
 
 ## 🚀 Projeto criado para cliente, mas consegui reforçar conceitos do ReactJS como:
