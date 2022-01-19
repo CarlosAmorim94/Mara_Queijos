@@ -16,7 +16,6 @@ export const HeaderStyled = styled.header`
 `
   
 export const LogoStyled = styled.div`
-
   width: 10rem ;
 
   img {
