@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
+export const HeaderStyled = styled.header`
 
   position: absolute;
   top: 0;
@@ -13,31 +13,31 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.4);
+`
   
+export const LogoStyled = styled.div`
+
+  width: 10rem ;
 
   img {
-    width: 10rem;
+    width: 100%;
   }
+`
 
-  nav {
-    display: flex;
+export const MenuStyled = styled.nav`
+    display: flex; // Naturalmente exibido ao carregar página
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-    a {
-      text-decoration: none;
-      font-size: 2rem;
-      font-weight: 3000;
-    }
+    width: auto;
     
-
     button {
       background-color: transparent;
       border: transparent;
       color: var(--white);
       font-size: 2rem;
-      width: 15vw;
+      margin: 0 2rem;
+      width: 100%;
       cursor: pointer;
 
       &:hover {
@@ -45,34 +45,45 @@ export const Container = styled.header`
       }
     }
 
-    
-
-  }
-
-  @media (max-width: 800px) {
-
-    width: 100%;
-    padding: 0 1vw;
-
-    img {
-      width: 20vw;
-      margin-right: auto;
-    }
-
-    nav {
-      display: flex;
+    @media (max-width: 867px) { // Telas pequenas, padrão 'none', mas se a função show for 'true' ele aparece com a formatação abaixo.
+      display: ${ ( { show } ) => show ? 'flex' : 'none' };
       flex-direction: column;
+      justify-content: center;
       align-items: center;
-      width: 70%;
-      margin-right: 1vw;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 4;
+      background-color: rgba(0,0,0, .95) ;
+      overflow: hidden;
+      height: 80vh;
+      width: 100vw;
+
+      button {
+        font-size: 3rem;
+        margin-top: 2rem;
+        border: 1px solid #fff;
+        border-radius: 1rem;
+        width: 80vw;
+      }
     }
 
-    button {
-      width: 100%;
-      cursor: pointer;      
-    }
-   
+  `
 
+export const MenuContentStyled = styled.div`
+  position: flex;
+  width: auto;
+  z-index: 4;
+  padding: 10px;
+  display: none; // Naturalmente escondido.
+
+  @media (max-width: 867px) { // Telas pequenas ele aparece.
+    display: flex;
+    align-items: center;
   }
 
+`
+export const MenuIconStyled = styled.img`
+  cursor: pointer;
 `

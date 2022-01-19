@@ -38,14 +38,23 @@ export const Container = styled.footer`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: inherit;
     color: white;
     font-size: 1.2rem;
+    text-align: center;
 
     a {
       color: inherit;
       font-weight: bold;
       text-decoration: none;
+    }
+  }
+
+  @media (max-width: 867px) {
+    .socials {
+      a{
+        font-size: 4rem;
+      }
     }
   }
 

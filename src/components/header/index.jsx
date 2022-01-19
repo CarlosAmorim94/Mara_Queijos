@@ -1,32 +1,46 @@
-import React from 'react'
-import { Container } from './styles'
+import React, { useState } from 'react'
+import { HeaderStyled, LogoStyled, MenuStyled, MenuContentStyled, MenuIconStyled } from './styles'
 import LogoImg from "../../img/logo.png"
 import { Link } from "react-router-dom";
+import menu from '../../img/menu.svg'
 
 export default function Header() {
+
+  const [show, setShow] = useState(false); // armazenar estado de renderização do menu.
+
+  const toggleMenu = () => { //Se clicar, seta a renderização do menu como diferente da atual, que é false (se torna true).
+    setShow(!show)
+  }
+
   return (
-    <Container className='header'>
-        <div className='logo'>
+    <HeaderStyled>
+        <LogoStyled>
           <Link to="/">
               <img src={LogoImg} alt="Logotipo" />
           </Link>
-        </div>
+        </LogoStyled>
 
-        <nav>
+        <MenuStyled show={show}>
           <Link to="/">
-            <button>HOME</button>
+            <button onClick={toggleMenu}>HOME</button>
           </Link>
 
           <Link to="/products">
-            <button>PRODUTOS</button>
+            <button onClick={toggleMenu}>PRODUTOS</button>
           </Link>
 
           <Link to="/contact">
-            <button>CONTATO</button>
+            <button onClick={toggleMenu}>CONTATO</button>
           </Link>
       
-        </nav>
+        </MenuStyled>
+
+        <MenuContentStyled>
+          <MenuIconStyled onClick={toggleMenu} src={menu} width="48px"/>
+        </MenuContentStyled>
+
+       
       
-    </Container>
+    </HeaderStyled>
   )
 }
