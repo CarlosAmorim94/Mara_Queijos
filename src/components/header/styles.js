@@ -24,6 +24,10 @@ export const LogoStyled = styled.div`
   img {
     width: 100%;
   }
+
+  @media (max-width: 768px) {
+    width: 15vw;
+  }
 `
 
 export const MenuStyled = styled.nav`
@@ -88,4 +92,5 @@ export const MenuContentStyled = styled.div`
 `
 export const MenuIconStyled = styled.img`
   cursor: pointer;
+  margin: 1rem;
 `

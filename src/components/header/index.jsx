@@ -36,7 +36,7 @@ export default function Header() {
         </MenuStyled>
 
         <MenuContentStyled>
-          <MenuIconStyled onClick={toggleMenu} src={menu} width="48px"/>
+          <MenuIconStyled onClick={toggleMenu} src={menu} width="32px"/>
         </MenuContentStyled>
 
        
